@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rwanda Sports Hub</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      background: radial-gradient(circle at top, #0f172a, #020617);
+      color: #e5e7eb;
+    }
+
+    header {
+      text-align: center;
+      padding: 40px 20px;
+      background: linear-gradient(135deg, #0ea5e9, #22c55e);
+      color: black;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+      letter-spacing: 1px;
+    }
+
+    header p {
+      margin-top: 10px;
+      font-size: 1.1rem;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 15px;
+      background: rgba(255,255,255,0.05);
+      backdrop-filter: blur(10px);
+      position: sticky;
+      top: 0;
+    }
+
+    nav a {
+      color: #e5e7eb;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color: #38bdf8;
+      transform: scale(1.1);
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    .card {
+      background: rgba(255,255,255,0.05);
+      border: 1px solid rgba(255,255,255,0.1);
+      padding: 20px;
+      margin: 20px 0;
+      border-radius: 15px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      border-color: #38bdf8;
+    }
+
+    h2 {
+      color: #38bdf8;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 10px 18px;
+      background: linear-gradient(135deg, #22c55e, #0ea5e9);
+      color: black;
+      text-decoration: none;
+      border-radius: 10px;
+      font-weight: bold;
+      margin-top: 10px;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      transform: scale(1.05);
+      opacity: 0.9;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 15px;
+    }
+
+    .whatsapp {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: #25D366;
+      color: white;
+      padding: 14px 18px;
+      border-radius: 50px;
+      text-decoration: none;
+      font-weight: bold;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.4);
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      opacity: 0.6;
+      font-size: 0.9rem;
+    }
+
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>🏀 Rwanda Sports Hub</h1>
+  <p>Basketball • Training • Camps • Youth Sports</p>
+</header>
+
+<nav>
+  <a href="#home">Home</a>
+  <a href="#news">News</a>
+  <a href="#training">Training</a>
+  <a href="#camps">Camps</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<div class="container">
+
+  <section id="home" class="card">
+    <h2>🔥 Welcome</h2>
+    <p>Your modern hub for basketball updates, training tips, and youth camps in Rwanda.</p>
+  </section>
+
+  <section id="news" class="card">
+    <h2>🏀 Latest News</h2>
+    <div class="grid">
+      <div class="card">APR vs REG upcoming showdown</div>
+      <div class="card">School tournaments heating up</div>
+      <div class="card">New talents discovered in Rwanda</div>
+    </div>
+  </section>
+
+  <section id="training" class="card">
+    <h2>🏋️ Training Zone</h2>
+    <p>Improve your skills step by step:</p>
+    <ul>
+      <li>Dribble daily for control</li>
+      <li>Perfect shooting form first</li>
+      <li>Play small matches often</li>
+    </ul>
+  </section>
+
+  <section id="camps" class="card">
+    <h2>🏀 Camps</h2>
+    <div class="grid">
+      <div class="card">Swish Basketball Academy</div>
+      <div class="card">Kigali Basketball Academy</div>
+      <div class="card">Holiday Youth Camps</div>
+    </div>
+  </section>
+
+  <section id="contact" class="card">
+    <h2>📩 Contact & Promote</h2>
+    <p>Want your camp or team featured? Contact us.</p>
+    <a class="btn" href="#">Contact Now</a>
+  </section>
+
+</div>
+
+<a class="whatsapp" href="https://wa.me/250000000000" target="_blank">
+  WhatsApp
+</a>
+
+<footer>
+  <p>© 2026 Rwanda Sports Hub | Built for youth sports</p>
+</footer>
+
+</body>
+</html>
